@@ -1,0 +1,33 @@
+h1 {
+  color: #008081;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+}
+
+#info_personal1 {
+  color: purple;
+  font-size: large;
+  line-height: 0px;
+}
+
+#info_personal2 {
+  color: rgb(87, 51, 87);
+  font-size: medium;
+}
+
+.seccion {
+  color: green;
+}
+
+/* Aplicar este style a los parrafos solo en header, es mejor solo classe o ids*/
+footer p {
+  color: chocolate;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
